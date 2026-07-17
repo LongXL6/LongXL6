@@ -15,10 +15,6 @@ I build small hardware and the software around it — 8051 MCUs, WS2812 LED cont
 <p align="center">
   <img src="assets/stats.svg" width="100%" alt="GitHub stats — stars, repos, followers, languages" />
 </p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=LongXL6&hide_border=true&background=0d131c&ring=53d7c8&fire=e8b84b&currStreakLabel=53d7c8&sideLabels=c9d5de&currStreakNum=e9f1f4&sideNums=e9f1f4&dates=9fb0bc" alt="Contribution streak" />
-</p>
-
 ### Recent activity
 
 <!--START_SECTION:activity-->

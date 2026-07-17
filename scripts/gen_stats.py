@@ -41,6 +41,35 @@ def get(path: str):
         return json.load(r)
 
 
+def graphql(query: str, variables: dict):
+    body = json.dumps({"query": query, "variables": variables}).encode()
+    req = urllib.request.Request(API + "/graphql", data=body, headers={
+        "Authorization": f"Bearer {token()}",
+        "Content-Type": "application/json",
+        "User-Agent": USER,
+    })
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.load(r)
+
+
+def contributions():
+    """Return (total_last_year, current_streak_days) from the contribution calendar."""
+    q = """query($login:String!){user(login:$login){contributionsCollection{
+      contributionCalendar{totalContributions weeks{contributionDays{date contributionCount}}}}}}"""
+    cal = graphql(q, {"login": USER})["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+    days = [d for w in cal["weeks"] for d in w["contributionDays"]]
+    days.sort(key=lambda d: d["date"])
+    streak = 0
+    for i, d in enumerate(reversed(days)):
+        if d["contributionCount"] > 0:
+            streak += 1
+        elif i == 0:
+            continue  # today can still be 0 without breaking the streak
+        else:
+            break
+    return cal["totalContributions"], streak
+
+
 def esc(s: str) -> str:
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
@@ -61,11 +90,13 @@ def main():
     if rest > 0:
         top.append(("OTHER", rest))
 
+    total_contribs, streak = contributions()
     metrics = [
         ("STARS", stars),
         ("REPOS", user["public_repos"]),
         ("FOLLOWERS", user["followers"]),
-        ("LANGS", len(lang_bytes)),
+        ("CONTRIBS 1Y", total_contribs),
+        ("DAY STREAK", streak),
     ]
 
     o = (f'font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" '
@@ -81,7 +112,7 @@ def main():
     ]
 
     for i, (label, value) in enumerate(metrics):
-        cx = 34 + i * 210
+        cx = 34 + i * 168
         parts += [
             f'<text x="{cx}" y="92" font-size="30" font-weight="700" letter-spacing="2" fill="{FG}" stroke-width="5" {o}>{value}</text>',
             f'<text x="{cx}" y="114" font-size="11" letter-spacing="2.5" fill="{DIM}" stroke-width="2" {o}>{label}</text>',
