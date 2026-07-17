@@ -1,0 +1,29 @@
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: LongXL6
+          # 配色跟随 FPV OSD 头图主题（青色蛇身 + 深青-琥珀渐变格子）
+          outputs: |
+            dist/snake.svg?color_snake=%2353d7c8&color_dots=%23161d26,%231c3a3d,%23246a5f,%2338a993,%23e8b84b
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

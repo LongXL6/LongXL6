@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Longxin Peng — Embedded, FPV, iOS. FPV OSD banner.">
+<title>Longxin Peng — FPV OSD</title>
+<defs>
+<linearGradient id="sk" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#0f1723"/>
+<stop offset="1" stop-color="#1d2c3f"/>
+</linearGradient>
+<linearGradient id="gd" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#0c1119"/>
+<stop offset="1" stop-color="#07090d"/>
+</linearGradient>
+<radialGradient id="vg" cx="0.5" cy="0.5" r="0.72">
+<stop offset="0.55" stop-color="#000000" stop-opacity="0"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0.38"/>
+</radialGradient>
+</defs>
+<style>
+.o{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px;letter-spacing:1.5px;fill:#e9f1f4;stroke:#070a0e;stroke-width:3px;paint-order:stroke;stroke-linejoin:round}
+.d{font-size:12px;letter-spacing:1.2px;fill:#9fb0bc;stroke-width:2.5px}
+.m{font-size:13px;letter-spacing:3px;fill:#c9d5de;stroke-width:2.5px}
+.n{font-size:32px;font-weight:700;letter-spacing:6px;stroke-width:6px;text-transform:uppercase}
+.t{font-size:13px;letter-spacing:4px;fill:#c9d5de}
+.s{fill:#e9f1f4;stroke:#070a0e;stroke-width:2px;paint-order:stroke;stroke-linejoin:round}
+</style>
+<rect width="900" height="300" fill="#0b1016"/>
+<g>
+<animateTransform attributeName="transform" type="rotate" values="-3 450 150;2.4 450 150;-1.6 450 150;3 450 150;-3 450 150" keyTimes="0;0.28;0.52;0.78;1" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" dur="16s" repeatCount="indefinite"/>
+<rect x="-80" y="-80" width="1060" height="240" fill="url(#sk)"/>
+<rect x="-80" y="160" width="1060" height="220" fill="url(#gd)"/>
+<rect x="-80" y="159.4" width="1060" height="1.2" fill="#33475c"/>
+</g>
+<rect width="900" height="300" fill="url(#vg)"/>
+<rect x="0.5" y="0.5" width="899" height="299" fill="none" stroke="#223041"/>
+<g>
+<animateTransform attributeName="transform" type="rotate" values="-3 450 150;2.4 450 150;-1.6 450 150;3 450 150;-3 450 150" keyTimes="0;0.28;0.52;0.78;1" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" dur="16s" repeatCount="indefinite"/>
+<rect class="s" x="276" y="147.7" width="30" height="2.6"/>
+<rect class="s" x="320" y="147.7" width="30" height="2.6"/>
+<rect class="s" x="364" y="147.7" width="30" height="2.6"/>
+<rect class="s" x="506" y="147.7" width="30" height="2.6"/>
+<rect class="s" x="550" y="147.7" width="30" height="2.6"/>
+<rect class="s" x="594" y="147.7" width="30" height="2.6"/>
+</g>
+<rect class="s" x="421" y="148.7" width="16" height="2.6"/>
+<rect class="s" x="463" y="148.7" width="16" height="2.6"/>
+<circle class="s" cx="450" cy="150" r="2.3"/>
+<g>
+<rect class="s" x="34" y="41" width="4" height="5"/>
+<rect class="s" x="41" y="38" width="4" height="8"/>
+<rect class="s" x="48" y="35" width="4" height="11"/>
+<rect class="s" x="55" y="32" width="4" height="14"/>
+<rect x="62" y="29" width="4" height="17" fill="#e8b84b" stroke="#070a0e" stroke-width="2" paint-order="stroke">
+<animate attributeName="opacity" values="1;0.15" keyTimes="0;0.72" calcMode="discrete" dur="2.2s" repeatCount="indefinite"/>
+</rect>
+<text class="o" x="76" y="46">RSSI 92</text>
+<text class="o d" x="34" y="67">LQ 100</text>
+</g>
+<path class="s" d="M450 12 L456.5 21.5 L452.2 21.5 L452.2 28 L447.8 28 L447.8 21.5 L443.5 21.5 Z">
+<animateTransform attributeName="transform" type="rotate" values="-16 450 20;13 450 20;-16 450 20" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" dur="12s" repeatCount="indefinite"/>
+</path>
+<text class="o m" x="450" y="46" text-anchor="middle">LOS ANGELES</text>
+<g>
+<rect x="770" y="34" width="26" height="13" rx="2" fill="none" stroke="#e9f1f4" stroke-width="1.6"/>
+<rect x="797" y="37.5" width="3" height="6" rx="1" fill="#e9f1f4"/>
+<rect x="773" y="37" width="20" height="7" fill="#e9f1f4">
+<animate attributeName="width" values="20;4" dur="30s" repeatCount="indefinite"/>
+</rect>
+<text class="o" x="866" y="46" text-anchor="end">16.8V<animate attributeName="opacity" values="1;0" keyTimes="0;0.1667" calcMode="discrete" dur="30s" repeatCount="indefinite"/></text>
+<text class="o" x="866" y="46" text-anchor="end">16.4V<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1667;0.3333" calcMode="discrete" dur="30s" repeatCount="indefinite"/></text>
+<text class="o" x="866" y="46" text-anchor="end">16.0V<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3333;0.5" calcMode="discrete" dur="30s" repeatCount="indefinite"/></text>
+<text class="o" x="866" y="46" text-anchor="end">15.6V<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;0.6667" calcMode="discrete" dur="30s" repeatCount="indefinite"/></text>
+<text class="o" x="866" y="46" text-anchor="end">15.2V<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.6667;0.8333" calcMode="discrete" dur="30s" repeatCount="indefinite"/></text>
+<text class="o" x="866" y="46" text-anchor="end" fill="#e8b84b">14.9V<animate attributeName="opacity" values="0;1" keyTimes="0;0.8333" calcMode="discrete" dur="30s" repeatCount="indefinite"/></text>
+<text class="o d" x="866" y="67" text-anchor="end">4S · AM32</text>
+</g>
+<text class="o m" x="34" y="155">SPD 96</text>
+<text class="o m" x="866" y="155" text-anchor="end">ALT 132</text>
+<text class="o m" x="34" y="228">ACRO</text>
+<text class="o m" x="866" y="228" text-anchor="end">5.8G R4</text>
+<text class="o n" x="450" y="228" text-anchor="middle">Longxin Peng</text>
+<text class="o t" x="450" y="251" text-anchor="middle">EMBEDDED<tspan fill="#53d7c8"> · </tspan>FPV<tspan fill="#53d7c8"> · </tspan>IOS</text>
+<g>
+<text class="o" x="34" y="251">FLY 04:20<animate attributeName="opacity" values="1;0" keyTimes="0;0.1" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
+<text class="o" x="34" y="251">FLY 04:21<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1;0.2" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
+<text class="o" x="34" y="251">FLY 04:22<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2;0.3" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
+<text class="o" x="34" y="251">FLY 04:23<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3;0.4" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
+<text class="o" x="34" y="251">FLY 04:24<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4;0.5" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
+<text class="o" x="34" y="251">FLY 04:25<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;0.6" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
+<text class="o" x="34" y="251">FLY 04:26<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.6;0.7" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
+<text class="o" x="34" y="251">FLY 04:27<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7;0.8" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
+<text class="o" x="34" y="251">FLY 04:28<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.8;0.9" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
+<text class="o" x="34" y="251">FLY 04:29<animate attributeName="opacity" values="0;1" keyTimes="0;0.9" calcMode="discrete" dur="10s" repeatCount="indefinite"/></text>
+</g>
+<g>
+<rect x="34" y="261" width="6" height="7" fill="#53d7c8" opacity="0.15"><animate attributeName="opacity" values="0.15;1;0.15" keyTimes="0;0.18;1" dur="2.4s" begin="0s" repeatCount="indefinite"/></rect>
+<rect x="44" y="261" width="6" height="7" fill="#53d7c8" opacity="0.15"><animate attributeName="opacity" values="0.15;1;0.15" keyTimes="0;0.18;1" dur="2.4s" begin="0.4s" repeatCount="indefinite"/></rect>
+<rect x="54" y="261" width="6" height="7" fill="#53d7c8" opacity="0.15"><animate attributeName="opacity" values="0.15;1;0.15" keyTimes="0;0.18;1" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></rect>
+<rect x="64" y="261" width="6" height="7" fill="#53d7c8" opacity="0.15"><animate attributeName="opacity" values="0.15;1;0.15" keyTimes="0;0.18;1" dur="2.4s" begin="1.2s" repeatCount="indefinite"/></rect>
+<rect x="74" y="261" width="6" height="7" fill="#53d7c8" opacity="0.15"><animate attributeName="opacity" values="0.15;1;0.15" keyTimes="0;0.18;1" dur="2.4s" begin="1.6s" repeatCount="indefinite"/></rect>
+<rect x="84" y="261" width="6" height="7" fill="#53d7c8" opacity="0.15"><animate attributeName="opacity" values="0.15;1;0.15" keyTimes="0;0.18;1" dur="2.4s" begin="2s" repeatCount="indefinite"/></rect>
+<text class="o d" x="100" y="269">WS2812</text>
+</g>
+<text class="o" x="866" y="251" text-anchor="end">@LongXL6</text>
+<text class="o d" x="866" y="269" text-anchor="end">LONGXL.COM</text>
+</svg>
