@@ -2,7 +2,7 @@ name: Generate OSD stats card
 
 on:
   schedule:
-    - cron: "30 8 * * *"
+    - cron: "30 8 * * 1"
   workflow_dispatch:
   push:
     branches: [main]
