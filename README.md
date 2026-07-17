@@ -28,3 +28,4 @@ I build small hardware and the software around it — 8051 MCUs, WS2812 LED cont
 <p align="center">
   <img src="https://raw.githubusercontent.com/LongXL6/LongXL6/output/snake.svg" alt="contribution snake" />
 </p>
+
