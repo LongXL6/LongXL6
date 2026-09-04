@@ -18,7 +18,7 @@ I build small hardware and the software around it — 8051 MCUs, WS2812 LED cont
 ### Recent activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#62](https://github.com/BIBOYANG425/bia-admin/pull/62) in [BIBOYANG425/bia-admin](https://github.com/BIBOYANG425/bia-admin)
+1. 💪 Opened PR [#11](https://github.com/LongXL6/windows-360-cleaner/pull/11) in [LongXL6/windows-360-cleaner](https://github.com/LongXL6/windows-360-cleaner)
 2. 💪 Opened PR [#62](https://github.com/BIBOYANG425/bia-admin/pull/62) in [BIBOYANG425/bia-admin](https://github.com/BIBOYANG425/bia-admin)
 3. 🎉 Merged PR [#61](https://github.com/BIBOYANG425/bia-admin/pull/61) in [BIBOYANG425/bia-admin](https://github.com/BIBOYANG425/bia-admin)
 4. 🎉 Merged PR [#60](https://github.com/BIBOYANG425/bia-admin/pull/60) in [BIBOYANG425/bia-admin](https://github.com/BIBOYANG425/bia-admin)
