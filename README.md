@@ -18,11 +18,11 @@ I build small hardware and the software around it — 8051 MCUs, WS2812 LED cont
 ### Recent activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#11](https://github.com/LongXL6/windows-360-cleaner/pull/11) in [LongXL6/windows-360-cleaner](https://github.com/LongXL6/windows-360-cleaner)
-2. 💪 Opened PR [#62](https://github.com/BIBOYANG425/bia-admin/pull/62) in [BIBOYANG425/bia-admin](https://github.com/BIBOYANG425/bia-admin)
-3. 🎉 Merged PR [#61](https://github.com/BIBOYANG425/bia-admin/pull/61) in [BIBOYANG425/bia-admin](https://github.com/BIBOYANG425/bia-admin)
-4. 🎉 Merged PR [#60](https://github.com/BIBOYANG425/bia-admin/pull/60) in [BIBOYANG425/bia-admin](https://github.com/BIBOYANG425/bia-admin)
-5. 💪 Opened PR [#61](https://github.com/BIBOYANG425/bia-admin/pull/61) in [BIBOYANG425/bia-admin](https://github.com/BIBOYANG425/bia-admin)
+1. 🎉 Merged PR [#17](https://github.com/LongXL6/windows-360-cleaner/pull/17) in [LongXL6/windows-360-cleaner](https://github.com/LongXL6/windows-360-cleaner)
+2. 🔒 Closed issue [#8](https://github.com/LongXL6/windows-360-cleaner/issues/8) in [LongXL6/windows-360-cleaner](https://github.com/LongXL6/windows-360-cleaner)
+3. 🔒 Closed issue [#10](https://github.com/LongXL6/windows-360-cleaner/issues/10) in [LongXL6/windows-360-cleaner](https://github.com/LongXL6/windows-360-cleaner)
+4. 🎉 Merged PR [#16](https://github.com/LongXL6/windows-360-cleaner/pull/16) in [LongXL6/windows-360-cleaner](https://github.com/LongXL6/windows-360-cleaner)
+5. 🔒 Closed issue [#7](https://github.com/LongXL6/windows-360-cleaner/issues/7) in [LongXL6/windows-360-cleaner](https://github.com/LongXL6/windows-360-cleaner)
 <!--END_SECTION:activity-->
 
 <p align="center">
